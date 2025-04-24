@@ -49,11 +49,11 @@ Finding the right roommate can be a stressful and uncertain process, especially 
 
 ```mermaid
 graph TD
-    A[Mobile App (Flutter)] -->|User Inputs| B[Backend API (Node.js + Express)]
-    B -->|User Data| C[MySQL Database]
-    B -->|Clustering Request| D[Python ML Engine (K-Means)]
-    D -->|Clustered Results| B
-    B -->|Filtered Matches| A
+    A[Mobile App - Flutter] --> B[Backend API - NodeJS and Express]
+    B --> C[MySQL Database]
+    B --> D[Python ML Engine - KMeans]
+    D --> B
+    B --> A
 ```
 
 ## 📈 Results
